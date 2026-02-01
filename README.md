@@ -1,4 +1,4 @@
-# iced-image-example
+# Iced Image Example
 
 Exemplo mínimo de como carregar e exibir imagens corretamente no **iced**, utilizando `iced::widget::image::Handle` de acordo com o fluxo `update → state → view`.
 
