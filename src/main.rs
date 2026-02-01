@@ -41,7 +41,7 @@ fn update(state: &mut State, message: Message) -> Task<Message> {
             // IMPORTANTE: Verifica se o Image ainda está nulo, o que significa
             // que a imagem ainda não foi criada.
             if state.image.is_none() {
-                let path = std::path::PathBuf::from("assets/image.png");
+                let path = std::path::PathBuf::from("logo.png");
 
                 if let Ok(bytes) = std::fs::read(path) {
                     // A leitura do arquivo só ocorre durante a atualização do estado.
